@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Codesaurusator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">  
+  </head>
+  <body>
+    <div id='main'>
+    <img src="./assets/logo.ico" id="logo">
+    <h1> Codesaurusator </h1>    
+    <div class="calculator"> 
+
+      <div id="output-box">
+        <input type="text" name="calcoutput" value="" readonly="readonly" id="res" class='calcoutput'/>
+
+      </div>
+
+      <div class='calButtons'>
+      <div>
+          <button  class="btn" onclick="addToProblem(this.innerHTML)">7</button>
+          <button class="btn" onclick="addToProblem(this.innerHTML)">8</button>
+          <button class="btn" onclick="addToProblem(this.innerHTML)">9</button>
+          <button class="operator" onclick="addToProblem(this.innerHTML)" class="operator"> + </button>
+      </div>
+
+      <div>
+          <button onclick="addToProblem(this.innerHTML)">4</button>
+          <button onclick="addToProblem(this.innerHTML)">5</button>
+          <button onclick="addToProblem(this.innerHTML)">6</button>
+          <button onclick="addToProblem(this.innerHTML)" class="operator"> /  </button>
+      </div>
+
+      <div>
+          <button onclick="addToProblem(this.innerHTML)">1</button>
+          <button onclick="addToProblem(this.innerHTML)">2</button>
+          <button onclick="addToProblem(this.innerHTML)">3</button>
+          <button onclick="addToProblem(' * ')" class="operator"> × </button>
+      </div>
+
+      <div>
+          <button onclick="addToProblem(this.innerHTML)">0</button>
+          <button onclick="reset()" class="reset">ce</button>
+          <button onclick="calculate()" class="eval">=</button>
+          <button onclick="addToProblem(this.innerHTML)" class="operator"> - </button>
+      </div>
+      </div>
+      </div>
+            
+
+    <script src="script.js"></script>
+  </body>
+</html>

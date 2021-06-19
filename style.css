@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 200;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: -10px;
+  margin-bottom: 2rem;
+}
+
+body {
+  background: url('./assets/Codesaurus Background.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+#logo {
+  height: 75px;
+  width: 75px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.calculator {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(30,30,30,1) 89%, rgba(40,40,40,1) 100%);
+  height: auto;
+  width: 22rem;
+  margin-left: 50%;
+  border-radius: 20px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  transform: translateX(-50%);
+}
+.calculator-top {
+  background-color:white;
+  height:100px ;
+  width:120px ;
+}
+
+* {
+
+    font: bold 14px Arial, sans-serif;
+}
+#calculator{
+
+    width: 320px;
+    height: auto;
+
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+
+    background: #9dd2ea;
+    border-radius: 3px;
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#btn-pose{
+  padding-right: 20px;
+}
+
+.output-box{
+  height:40px ;
+  width:320px ;
+  background-color: black;
+}
+
+button {
+  border-radius: 50%;
+  padding: 10px;
+  background: rgb(20, 20, 20);
+  border: none;
+  width: 50px;
+  height: 50px;
+  color: white;
+  margin: 5px;
+  box-shadow: inset 0px 3px 5px rgb(25, 25, 25);
+  cursor: pointer;
+}
+
+.calButtons div {
+  width: 18rem;
+  margin-left: 50%;
+  transform: translateX(-50%)
+}
+
+.calcoutput {
+  width: 15.5rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 2rem; 
+  border-radius: 10px;
+  border: none;
+  padding: 1rem;
+  outline: none;
+  cursor: default;
+  background: rgb(10, 10, 10);
+  color: rgb(150, 150, 150);
+  text-align: right;
+  box-shadow: inset 0px 3px 20px rgb(20, 20, 20);
+}
+
+.reset {
+  background: rgb(255, 145, 0);
+  box-shadow: inset 0px 3px 5px rgb(255, 174, 68);
+}
+
+.eval {
+  background: white;
+  color: black;
+  box-shadow: inset 0px 3px 5px rgb(150, 150, 150);
+}
+
+.operator {
+  background: white;
+  color: black;
+  box-shadow: inset 0px 3px 5px rgb(150, 150, 150);
+}
+
+#main {
+  height: 80%;
+  margin-top: 10%;
+}
