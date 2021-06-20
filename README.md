@@ -13,5 +13,8 @@ You can open the codesaurusator website  [here](https://codesaurusator.web.app/)
 ## Mobile
 We are currently in the proccess of depeloping the Codesaurusator Android Version. We will add the Playstore link here once done.
 
+## Developers
+Developed by Arnav Ravinder V, Soham Sen and Sheersh Shukla
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
