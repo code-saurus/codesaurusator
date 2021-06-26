@@ -2,8 +2,7 @@ let problem = '';
 
 const calc = () => {
       let res
-      try {res = String(eval(problem))} catch {res = 'Bad Expression'}
-      
+      res = String(eval(problem))      
       if (res.includes('Infinity')) {res = 'Bad Expression'}
       if (res.includes('NaN')) {res = 'Bad Expression'}
       return res
